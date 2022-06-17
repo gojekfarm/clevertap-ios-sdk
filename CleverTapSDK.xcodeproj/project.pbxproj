@@ -12,13 +12,6 @@
 		0701E9632372C1950034AAC2 /* CTDisplayUnitController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0701E9612372C1950034AAC2 /* CTDisplayUnitController.m */; };
 		0701E9652372DE9C0034AAC2 /* CleverTapDisplayUnit.m in Sources */ = {isa = PBXBuildFile; fileRef = 0701E9642372DE9C0034AAC2 /* CleverTapDisplayUnit.m */; };
 		0701E975237A9A760034AAC2 /* CleverTapDisplayUnitContent.m in Sources */ = {isa = PBXBuildFile; fileRef = 0701E973237A9A760034AAC2 /* CleverTapDisplayUnitContent.m */; };
-		070229A8220831CB0093CA41 /* ct_default_landscape_image.png in Resources */ = {isa = PBXBuildFile; fileRef = 070229A6220831CB0093CA41 /* ct_default_landscape_image.png */; };
-		070229A9220831CB0093CA41 /* ct_default_video.png in Resources */ = {isa = PBXBuildFile; fileRef = 070229A7220831CB0093CA41 /* ct_default_video.png */; };
-		070229AD22084B0B0093CA41 /* ct_default_portrait_image.png in Resources */ = {isa = PBXBuildFile; fileRef = 070229AC22084B0B0093CA41 /* ct_default_portrait_image.png */; };
-		07053B7221E653E70085B44A /* UIView+CTToast.h in Headers */ = {isa = PBXBuildFile; fileRef = 07053B7021E653E70085B44A /* UIView+CTToast.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		07053B7321E653E70085B44A /* UIView+CTToast.m in Sources */ = {isa = PBXBuildFile; fileRef = 07053B7121E653E70085B44A /* UIView+CTToast.m */; };
-		070BB5CC21E70BC000428DEE /* ct_volume_on.png in Resources */ = {isa = PBXBuildFile; fileRef = 070BB5CA21E70BBF00428DEE /* ct_volume_on.png */; };
-		070BB5CD21E70BC000428DEE /* ct_volume_off.png in Resources */ = {isa = PBXBuildFile; fileRef = 070BB5CB21E70BC000428DEE /* ct_volume_off.png */; };
 		070CDC0B2223C02F00CA787D /* CTInterstitialImageViewController~iphoneland.xib in Resources */ = {isa = PBXBuildFile; fileRef = 070CDC0A2223C02F00CA787D /* CTInterstitialImageViewController~iphoneland.xib */; };
 		070CDC0D2223C1C800CA787D /* CTHalfInterstitialImageViewController~iphoneland.xib in Resources */ = {isa = PBXBuildFile; fileRef = 070CDC0C2223C1C800CA787D /* CTHalfInterstitialImageViewController~iphoneland.xib */; };
 		070CDC0F2223C51C00CA787D /* CTHalfInterstitialViewController~iphoneland.xib in Resources */ = {isa = PBXBuildFile; fileRef = 070CDC0E2223C51C00CA787D /* CTHalfInterstitialViewController~iphoneland.xib */; };
@@ -40,12 +33,6 @@
 		071EB4D6217F6427008F0FAB /* CTInAppFCManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 071EB486217F6427008F0FAB /* CTInAppFCManager.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		071EB4D7217F6427008F0FAB /* CTCoverViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 071EB487217F6427008F0FAB /* CTCoverViewController.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		071EB4D8217F6427008F0FAB /* CTHalfInterstitialImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 071EB488217F6427008F0FAB /* CTHalfInterstitialImageViewController.m */; };
-		071EB4DB217F6427008F0FAB /* ic_play@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 071EB48C217F6427008F0FAB /* ic_play@1x.png */; };
-		071EB4E1217F6427008F0FAB /* ic_pause@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 071EB492217F6427008F0FAB /* ic_pause@1x.png */; };
-		071EB4E2217F6427008F0FAB /* ic_pause@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 071EB493217F6427008F0FAB /* ic_pause@2x.png */; };
-		071EB4E4217F6427008F0FAB /* ic_pause@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 071EB495217F6427008F0FAB /* ic_pause@3x.png */; };
-		071EB4E5217F6427008F0FAB /* ic_play@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 071EB496217F6427008F0FAB /* ic_play@3x.png */; };
-		071EB4E6217F6427008F0FAB /* ic_play@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 071EB497217F6427008F0FAB /* ic_play@2x.png */; };
 		071EB4E8217F6427008F0FAB /* CTFooterViewController~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 071EB499217F6427008F0FAB /* CTFooterViewController~ipad.xib */; };
 		071EB4EB217F6427008F0FAB /* CTCoverImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 071EB49C217F6427008F0FAB /* CTCoverImageViewController.m */; };
 		071EB4ED217F6427008F0FAB /* CTInterstitialImageViewController~iphoneport.xib in Resources */ = {isa = PBXBuildFile; fileRef = 071EB49E217F6427008F0FAB /* CTInterstitialImageViewController~iphoneport.xib */; };
@@ -92,48 +79,9 @@
 		071EB525217F6C8F008F0FAB /* CTUIUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 071EB4C2217F6427008F0FAB /* CTUIUtils.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		071EB527217F6CD1008F0FAB /* CTNotificationButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 071EB481217F6427008F0FAB /* CTNotificationButton.m */; };
 		07238E3B221D638D0012DFAE /* CTInterstitialViewController~iphoneland.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07238E3A221D638D0012DFAE /* CTInterstitialViewController~iphoneland.xib */; };
-		07238E3D221E79F80012DFAE /* CTInboxSimpleMessageCell~land.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07238E3C221E79F80012DFAE /* CTInboxSimpleMessageCell~land.xib */; };
-		07238E3F221E7A100012DFAE /* CTCarouselMessageCell~land.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07238E3E221E7A100012DFAE /* CTCarouselMessageCell~land.xib */; };
-		07238E41221E7A270012DFAE /* CTCarouselImageMessageCell~land.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07238E40221E7A270012DFAE /* CTCarouselImageMessageCell~land.xib */; };
-		07238E43221E7A3E0012DFAE /* CTInboxIconMessageCell~land.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07238E42221E7A3E0012DFAE /* CTInboxIconMessageCell~land.xib */; };
-		072F9E3D21B1368000BC6313 /* CTInboxIconMessageCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 072F9E3A21B1368000BC6313 /* CTInboxIconMessageCell.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		072F9E3E21B1368000BC6313 /* CTInboxIconMessageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 072F9E3B21B1368000BC6313 /* CTInboxIconMessageCell.m */; };
-		072F9E3F21B1368000BC6313 /* CTInboxIconMessageCell~port.xib in Resources */ = {isa = PBXBuildFile; fileRef = 072F9E3C21B1368000BC6313 /* CTInboxIconMessageCell~port.xib */; };
-		072F9E4221B14ECC00BC6313 /* CTInboxMessageActionView.h in Headers */ = {isa = PBXBuildFile; fileRef = 072F9E4021B14ECC00BC6313 /* CTInboxMessageActionView.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		072F9E4321B14ECC00BC6313 /* CTInboxMessageActionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 072F9E4121B14ECC00BC6313 /* CTInboxMessageActionView.m */; };
 		0781852B229FBD5100A72B07 /* SDWebImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D09A5E0221EA33C50032DDDF /* SDWebImage.framework */; };
 		078C63A922420321001FDDB8 /* CleverTapJSInterface.h in Headers */ = {isa = PBXBuildFile; fileRef = 078C63A722420321001FDDB8 /* CleverTapJSInterface.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		078C63AA22420321001FDDB8 /* CleverTapJSInterface.m in Sources */ = {isa = PBXBuildFile; fileRef = 078C63A822420321001FDDB8 /* CleverTapJSInterface.m */; };
-		07961B7621B50A4C0081953E /* CleverTapInboxMessageContent.m in Sources */ = {isa = PBXBuildFile; fileRef = 07961B7421B50A4C0081953E /* CleverTapInboxMessageContent.m */; };
-		0796FB6321AE5B2900FC380D /* CTCarouselMessageCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 0796FB6021AE5B2900FC380D /* CTCarouselMessageCell.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		0796FB6421AE5B2900FC380D /* CTCarouselMessageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0796FB6121AE5B2900FC380D /* CTCarouselMessageCell.m */; };
-		0796FB6521AE5B2900FC380D /* CTCarouselMessageCell~port.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0796FB6221AE5B2900FC380D /* CTCarouselMessageCell~port.xib */; };
-		0796FB6921AE5B6300FC380D /* CTCarouselImageMessageCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 0796FB6621AE5B6300FC380D /* CTCarouselImageMessageCell.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		0796FB6A21AE5B6300FC380D /* CTCarouselImageMessageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0796FB6721AE5B6300FC380D /* CTCarouselImageMessageCell.m */; };
-		0796FB6B21AE5B6300FC380D /* CTCarouselImageMessageCell~port.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0796FB6821AE5B6300FC380D /* CTCarouselImageMessageCell~port.xib */; };
-		079701E52180A055008BF668 /* ct_default_audio.png in Resources */ = {isa = PBXBuildFile; fileRef = 079701E42180A055008BF668 /* ct_default_audio.png */; };
-		0797132F21A2F09A0011C9A3 /* CTSwipeView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0797132D21A2F09A0011C9A3 /* CTSwipeView.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		0797133021A2F09A0011C9A3 /* CTSwipeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0797132E21A2F09A0011C9A3 /* CTSwipeView.m */; };
-		0797133A21A309720011C9A3 /* CTCarouselImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0797133821A309720011C9A3 /* CTCarouselImageView.m */; };
-		07B9453B219EA34300D4C542 /* CTInboxSimpleMessageCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 07B94522219EA34300D4C542 /* CTInboxSimpleMessageCell.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		07B9453C219EA34300D4C542 /* CTInboxSimpleMessageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 07B94523219EA34300D4C542 /* CTInboxSimpleMessageCell.m */; };
-		07B9453D219EA34300D4C542 /* CTInboxSimpleMessageCell~port.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07B94524219EA34300D4C542 /* CTInboxSimpleMessageCell~port.xib */; };
-		07B9453F219EA34300D4C542 /* CleverTapInboxStyleConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 07B94528219EA34300D4C542 /* CleverTapInboxStyleConfig.m */; };
-		07B94540219EA34300D4C542 /* CTInboxController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07B9452A219EA34300D4C542 /* CTInboxController.m */; };
-		07B94541219EA34300D4C542 /* CleverTapInboxViewControllerPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 07B9452B219EA34300D4C542 /* CleverTapInboxViewControllerPrivate.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		07B94542219EA34300D4C542 /* CleverTapInboxViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07B9452C219EA34300D4C542 /* CleverTapInboxViewController.m */; };
-		07B94543219EA34300D4C542 /* CleverTapInboxViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07B9452D219EA34300D4C542 /* CleverTapInboxViewController.xib */; };
-		07B94544219EA34300D4C542 /* CTInboxController.h in Headers */ = {isa = PBXBuildFile; fileRef = 07B9452E219EA34300D4C542 /* CTInboxController.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		07B94545219EA34300D4C542 /* CTUserMO+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 07B94530219EA34300D4C542 /* CTUserMO+CoreDataProperties.m */; };
-		07B94546219EA34300D4C542 /* CTMessageMO+CoreDataProperties.h in Headers */ = {isa = PBXBuildFile; fileRef = 07B94531219EA34300D4C542 /* CTMessageMO+CoreDataProperties.h */; };
-		07B94547219EA34300D4C542 /* CTMessageMO.h in Headers */ = {isa = PBXBuildFile; fileRef = 07B94532219EA34300D4C542 /* CTMessageMO.h */; };
-		07B94548219EA34300D4C542 /* CTUserMO.h in Headers */ = {isa = PBXBuildFile; fileRef = 07B94533219EA34300D4C542 /* CTUserMO.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		07B94549219EA34300D4C542 /* CTMessageMO+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 07B94534219EA34300D4C542 /* CTMessageMO+CoreDataProperties.m */; };
-		07B9454A219EA34300D4C542 /* CTUserMO+CoreDataProperties.h in Headers */ = {isa = PBXBuildFile; fileRef = 07B94535219EA34300D4C542 /* CTUserMO+CoreDataProperties.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		07B9454B219EA34300D4C542 /* CleverTapInboxMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 07B94536219EA34300D4C542 /* CleverTapInboxMessage.m */; };
-		07B9454C219EA34300D4C542 /* CTMessageMO.m in Sources */ = {isa = PBXBuildFile; fileRef = 07B94537219EA34300D4C542 /* CTMessageMO.m */; };
-		07B9454D219EA34300D4C542 /* Inbox.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 07B94538219EA34300D4C542 /* Inbox.xcdatamodeld */; };
-		07B9454E219EA34300D4C542 /* CTUserMO.m in Sources */ = {isa = PBXBuildFile; fileRef = 07B9453A219EA34300D4C542 /* CTUserMO.m */; };
 		07B94550219EA39000D4C542 /* CleverTap+Inbox.h in Headers */ = {isa = PBXBuildFile; fileRef = 07B9454F219EA38F00D4C542 /* CleverTap+Inbox.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		07B94553219EA44100D4C542 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 07B94552219EA44100D4C542 /* libsqlite3.tbd */; };
 		07BF465B217F7C41002E166D /* CTInAppDisplayViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 071EB4AC217F6427008F0FAB /* CTInAppDisplayViewController.h */; settings = {ATTRIBUTES = (Private, ); }; };
@@ -145,7 +93,6 @@
 		07D0D08F2223F24E000D5686 /* CTFooterViewController~iphoneland.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07D0D08E2223F24E000D5686 /* CTFooterViewController~iphoneland.xib */; };
 		07D0D0912223F44E000D5686 /* CTHeaderViewController~iphoneland.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07D0D0902223F44E000D5686 /* CTHeaderViewController~iphoneland.xib */; };
 		07D0D09322240329000D5686 /* CTCoverImageViewController~iphoneland.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07D0D09222240329000D5686 /* CTCoverImageViewController~iphoneland.xib */; };
-		07D86D3922255087009EE610 /* CTCarouselImageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07D86D3822255087009EE610 /* CTCarouselImageView.xib */; };
 		07D86D3B22268C1F009EE610 /* CTInterstitialViewController~ipadland.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07D86D3A22268C1F009EE610 /* CTInterstitialViewController~ipadland.xib */; };
 		07D86D3D22269462009EE610 /* CTFooterViewController~ipadland.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07D86D3C22269462009EE610 /* CTFooterViewController~ipadland.xib */; };
 		07D86D3F22269496009EE610 /* CTHalfInterstitialViewController~ipadland.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07D86D3E22269496009EE610 /* CTHalfInterstitialViewController~ipadland.xib */; };
@@ -153,7 +100,6 @@
 		07D86D43222695B7009EE610 /* CTCoverImageViewController~ipadland.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07D86D42222695B7009EE610 /* CTCoverImageViewController~ipadland.xib */; };
 		07D86D45222695F1009EE610 /* CTInterstitialImageViewController~ipadland.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07D86D44222695F1009EE610 /* CTInterstitialImageViewController~ipadland.xib */; };
 		07D86D4722269638009EE610 /* CTHeaderViewController~ipadland.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07D86D4622269638009EE610 /* CTHeaderViewController~ipadland.xib */; };
-		07D8C08B21DDEC54006F5A1B /* CTCarouselImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = 07D8C08A21DDEC54006F5A1B /* CTCarouselImageView.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		07FD65A2223BC26300A845B7 /* CTCoverViewController~iphoneland.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07FD65A1223BC26300A845B7 /* CTCoverViewController~iphoneland.xib */; };
 		07FD65A4223BCB8200A845B7 /* CTCoverViewController~ipadland.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07FD65A3223BCB8200A845B7 /* CTCoverViewController~ipadland.xib */; };
 		4987C665251B5E79003E6BE8 /* CTImageInAppViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 4987C663251B5E79003E6BE8 /* CTImageInAppViewController.h */; };
@@ -294,14 +240,8 @@
 		D032F3A92093EC9700F98D74 /* CTValidationResult.m in Sources */ = {isa = PBXBuildFile; fileRef = D032F3A72093EC9700F98D74 /* CTValidationResult.m */; };
 		D033FB83208FE51200B4390F /* CTUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = D033FB81208FE51200B4390F /* CTUtils.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		D033FB84208FE51200B4390F /* CTUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = D033FB82208FE51200B4390F /* CTUtils.m */; };
-		D0405B4622050C5200D64EC3 /* CTInboxUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = D0405B4422050C5200D64EC3 /* CTInboxUtils.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		D0405B4722050C5200D64EC3 /* CTInboxUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = D0405B4522050C5200D64EC3 /* CTInboxUtils.m */; };
 		D0596EFA208A6A9000A80753 /* CTSwizzle.h in Headers */ = {isa = PBXBuildFile; fileRef = D0596EF8208A6A9000A80753 /* CTSwizzle.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		D0596EFB208A6A9000A80753 /* CTSwizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = D0596EF9208A6A9000A80753 /* CTSwizzle.m */; };
-		D06F052821E802D400D1B6BD /* CTInboxBaseMessageCell.h in Headers */ = {isa = PBXBuildFile; fileRef = D06F052621E802D400D1B6BD /* CTInboxBaseMessageCell.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		D06F052921E802D400D1B6BD /* CTInboxBaseMessageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D06F052721E802D400D1B6BD /* CTInboxBaseMessageCell.m */; };
-		D079742921FE2F2300773602 /* CTVideoThumbnailGenerator.h in Headers */ = {isa = PBXBuildFile; fileRef = D079742721FE2F2300773602 /* CTVideoThumbnailGenerator.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		D079742A21FE2F2300773602 /* CTVideoThumbnailGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = D079742821FE2F2300773602 /* CTVideoThumbnailGenerator.m */; };
 		D0A6626A207EE6F500B403F3 /* CleverTapBuildInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = D0C7BBCD207D8EAE001345EF /* CleverTapBuildInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D0A6626D20801E7F00B403F3 /* CTDeviceInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = D0A6626B20801E7F00B403F3 /* CTDeviceInfo.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		D0A6626E20801E7F00B403F3 /* CTDeviceInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = D0A6626C20801E7F00B403F3 /* CTDeviceInfo.m */; };
@@ -416,13 +356,6 @@
 		0701E9612372C1950034AAC2 /* CTDisplayUnitController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CTDisplayUnitController.m; sourceTree = "<group>"; };
 		0701E9642372DE9C0034AAC2 /* CleverTapDisplayUnit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CleverTapDisplayUnit.m; sourceTree = "<group>"; };
 		0701E973237A9A760034AAC2 /* CleverTapDisplayUnitContent.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CleverTapDisplayUnitContent.m; sourceTree = "<group>"; };
-		070229A6220831CB0093CA41 /* ct_default_landscape_image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ct_default_landscape_image.png; sourceTree = "<group>"; };
-		070229A7220831CB0093CA41 /* ct_default_video.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ct_default_video.png; sourceTree = "<group>"; };
-		070229AC22084B0B0093CA41 /* ct_default_portrait_image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ct_default_portrait_image.png; sourceTree = "<group>"; };
-		07053B7021E653E70085B44A /* UIView+CTToast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CTToast.h"; sourceTree = "<group>"; };
-		07053B7121E653E70085B44A /* UIView+CTToast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CTToast.m"; sourceTree = "<group>"; };
-		070BB5CA21E70BBF00428DEE /* ct_volume_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ct_volume_on.png; sourceTree = "<group>"; };
-		070BB5CB21E70BC000428DEE /* ct_volume_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ct_volume_off.png; sourceTree = "<group>"; };
 		070CDC0A2223C02F00CA787D /* CTInterstitialImageViewController~iphoneland.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = "CTInterstitialImageViewController~iphoneland.xib"; sourceTree = "<group>"; };
 		070CDC0C2223C1C800CA787D /* CTHalfInterstitialImageViewController~iphoneland.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = "CTHalfInterstitialImageViewController~iphoneland.xib"; sourceTree = "<group>"; };
 		070CDC0E2223C51C00CA787D /* CTHalfInterstitialViewController~iphoneland.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = "CTHalfInterstitialViewController~iphoneland.xib"; sourceTree = "<group>"; };
@@ -444,12 +377,6 @@
 		071EB486217F6427008F0FAB /* CTInAppFCManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTInAppFCManager.h; sourceTree = "<group>"; };
 		071EB487217F6427008F0FAB /* CTCoverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTCoverViewController.h; sourceTree = "<group>"; };
 		071EB488217F6427008F0FAB /* CTHalfInterstitialImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTHalfInterstitialImageViewController.m; sourceTree = "<group>"; };
-		071EB48C217F6427008F0FAB /* ic_play@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_play@1x.png"; sourceTree = "<group>"; };
-		071EB492217F6427008F0FAB /* ic_pause@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_pause@1x.png"; sourceTree = "<group>"; };
-		071EB493217F6427008F0FAB /* ic_pause@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_pause@2x.png"; sourceTree = "<group>"; };
-		071EB495217F6427008F0FAB /* ic_pause@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_pause@3x.png"; sourceTree = "<group>"; };
-		071EB496217F6427008F0FAB /* ic_play@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_play@3x.png"; sourceTree = "<group>"; };
-		071EB497217F6427008F0FAB /* ic_play@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_play@2x.png"; sourceTree = "<group>"; };
 		071EB499217F6427008F0FAB /* CTFooterViewController~ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "CTFooterViewController~ipad.xib"; sourceTree = "<group>"; };
 		071EB49C217F6427008F0FAB /* CTCoverImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTCoverImageViewController.m; sourceTree = "<group>"; };
 		071EB49E217F6427008F0FAB /* CTInterstitialImageViewController~iphoneport.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "CTInterstitialImageViewController~iphoneport.xib"; sourceTree = "<group>"; };
@@ -489,53 +416,13 @@
 		071EB4C5217F6427008F0FAB /* CTCoverImageViewController~ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "CTCoverImageViewController~ipad.xib"; sourceTree = "<group>"; };
 		071EB4C6217F6427008F0FAB /* CTInterstitialViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTInterstitialViewController.h; sourceTree = "<group>"; };
 		07238E3A221D638D0012DFAE /* CTInterstitialViewController~iphoneland.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = "CTInterstitialViewController~iphoneland.xib"; sourceTree = "<group>"; };
-		07238E3C221E79F80012DFAE /* CTInboxSimpleMessageCell~land.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = "CTInboxSimpleMessageCell~land.xib"; sourceTree = "<group>"; };
-		07238E3E221E7A100012DFAE /* CTCarouselMessageCell~land.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = "CTCarouselMessageCell~land.xib"; sourceTree = "<group>"; };
-		07238E40221E7A270012DFAE /* CTCarouselImageMessageCell~land.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = "CTCarouselImageMessageCell~land.xib"; sourceTree = "<group>"; };
-		07238E42221E7A3E0012DFAE /* CTInboxIconMessageCell~land.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = "CTInboxIconMessageCell~land.xib"; sourceTree = "<group>"; };
-		072F9E3A21B1368000BC6313 /* CTInboxIconMessageCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CTInboxIconMessageCell.h; sourceTree = "<group>"; };
-		072F9E3B21B1368000BC6313 /* CTInboxIconMessageCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CTInboxIconMessageCell.m; sourceTree = "<group>"; };
-		072F9E3C21B1368000BC6313 /* CTInboxIconMessageCell~port.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = "CTInboxIconMessageCell~port.xib"; sourceTree = "<group>"; };
-		072F9E4021B14ECC00BC6313 /* CTInboxMessageActionView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CTInboxMessageActionView.h; sourceTree = "<group>"; };
-		072F9E4121B14ECC00BC6313 /* CTInboxMessageActionView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CTInboxMessageActionView.m; sourceTree = "<group>"; };
 		078C63A722420321001FDDB8 /* CleverTapJSInterface.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CleverTapJSInterface.h; sourceTree = "<group>"; };
 		078C63A822420321001FDDB8 /* CleverTapJSInterface.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CleverTapJSInterface.m; sourceTree = "<group>"; };
-		07961B7421B50A4C0081953E /* CleverTapInboxMessageContent.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CleverTapInboxMessageContent.m; sourceTree = "<group>"; };
-		0796FB6021AE5B2900FC380D /* CTCarouselMessageCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CTCarouselMessageCell.h; sourceTree = "<group>"; };
-		0796FB6121AE5B2900FC380D /* CTCarouselMessageCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CTCarouselMessageCell.m; sourceTree = "<group>"; };
-		0796FB6221AE5B2900FC380D /* CTCarouselMessageCell~port.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = "CTCarouselMessageCell~port.xib"; sourceTree = "<group>"; };
-		0796FB6621AE5B6300FC380D /* CTCarouselImageMessageCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CTCarouselImageMessageCell.h; sourceTree = "<group>"; };
-		0796FB6721AE5B6300FC380D /* CTCarouselImageMessageCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CTCarouselImageMessageCell.m; sourceTree = "<group>"; };
-		0796FB6821AE5B6300FC380D /* CTCarouselImageMessageCell~port.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = "CTCarouselImageMessageCell~port.xib"; sourceTree = "<group>"; };
-		079701E42180A055008BF668 /* ct_default_audio.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ct_default_audio.png; sourceTree = "<group>"; };
-		0797132D21A2F09A0011C9A3 /* CTSwipeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTSwipeView.h; sourceTree = "<group>"; };
-		0797132E21A2F09A0011C9A3 /* CTSwipeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTSwipeView.m; sourceTree = "<group>"; };
-		0797133821A309720011C9A3 /* CTCarouselImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTCarouselImageView.m; sourceTree = "<group>"; };
-		07B94522219EA34300D4C542 /* CTInboxSimpleMessageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTInboxSimpleMessageCell.h; sourceTree = "<group>"; };
-		07B94523219EA34300D4C542 /* CTInboxSimpleMessageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTInboxSimpleMessageCell.m; sourceTree = "<group>"; };
-		07B94524219EA34300D4C542 /* CTInboxSimpleMessageCell~port.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "CTInboxSimpleMessageCell~port.xib"; sourceTree = "<group>"; };
-		07B94528219EA34300D4C542 /* CleverTapInboxStyleConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CleverTapInboxStyleConfig.m; sourceTree = "<group>"; };
-		07B9452A219EA34300D4C542 /* CTInboxController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTInboxController.m; sourceTree = "<group>"; };
-		07B9452B219EA34300D4C542 /* CleverTapInboxViewControllerPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CleverTapInboxViewControllerPrivate.h; sourceTree = "<group>"; };
-		07B9452C219EA34300D4C542 /* CleverTapInboxViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CleverTapInboxViewController.m; sourceTree = "<group>"; };
-		07B9452D219EA34300D4C542 /* CleverTapInboxViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CleverTapInboxViewController.xib; sourceTree = "<group>"; };
-		07B9452E219EA34300D4C542 /* CTInboxController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTInboxController.h; sourceTree = "<group>"; };
-		07B94530219EA34300D4C542 /* CTUserMO+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CTUserMO+CoreDataProperties.m"; sourceTree = "<group>"; };
-		07B94531219EA34300D4C542 /* CTMessageMO+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CTMessageMO+CoreDataProperties.h"; sourceTree = "<group>"; };
-		07B94532219EA34300D4C542 /* CTMessageMO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTMessageMO.h; sourceTree = "<group>"; };
-		07B94533219EA34300D4C542 /* CTUserMO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTUserMO.h; sourceTree = "<group>"; };
-		07B94534219EA34300D4C542 /* CTMessageMO+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CTMessageMO+CoreDataProperties.m"; sourceTree = "<group>"; };
-		07B94535219EA34300D4C542 /* CTUserMO+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CTUserMO+CoreDataProperties.h"; sourceTree = "<group>"; };
-		07B94536219EA34300D4C542 /* CleverTapInboxMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CleverTapInboxMessage.m; sourceTree = "<group>"; };
-		07B94537219EA34300D4C542 /* CTMessageMO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTMessageMO.m; sourceTree = "<group>"; };
-		07B94539219EA34300D4C542 /* Inbox.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Inbox.xcdatamodel; sourceTree = "<group>"; };
-		07B9453A219EA34300D4C542 /* CTUserMO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTUserMO.m; sourceTree = "<group>"; };
 		07B9454F219EA38F00D4C542 /* CleverTap+Inbox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CleverTap+Inbox.h"; sourceTree = "<group>"; };
 		07B94552219EA44100D4C542 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 		07D0D08E2223F24E000D5686 /* CTFooterViewController~iphoneland.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = "CTFooterViewController~iphoneland.xib"; sourceTree = "<group>"; };
 		07D0D0902223F44E000D5686 /* CTHeaderViewController~iphoneland.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = "CTHeaderViewController~iphoneland.xib"; sourceTree = "<group>"; };
 		07D0D09222240329000D5686 /* CTCoverImageViewController~iphoneland.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = "CTCoverImageViewController~iphoneland.xib"; sourceTree = "<group>"; };
-		07D86D3822255087009EE610 /* CTCarouselImageView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CTCarouselImageView.xib; sourceTree = "<group>"; };
 		07D86D3A22268C1F009EE610 /* CTInterstitialViewController~ipadland.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = "CTInterstitialViewController~ipadland.xib"; sourceTree = "<group>"; };
 		07D86D3C22269462009EE610 /* CTFooterViewController~ipadland.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = "CTFooterViewController~ipadland.xib"; sourceTree = "<group>"; };
 		07D86D3E22269496009EE610 /* CTHalfInterstitialViewController~ipadland.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = "CTHalfInterstitialViewController~ipadland.xib"; sourceTree = "<group>"; };
@@ -543,7 +430,6 @@
 		07D86D42222695B7009EE610 /* CTCoverImageViewController~ipadland.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = "CTCoverImageViewController~ipadland.xib"; sourceTree = "<group>"; };
 		07D86D44222695F1009EE610 /* CTInterstitialImageViewController~ipadland.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = "CTInterstitialImageViewController~ipadland.xib"; sourceTree = "<group>"; };
 		07D86D4622269638009EE610 /* CTHeaderViewController~ipadland.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = "CTHeaderViewController~ipadland.xib"; sourceTree = "<group>"; };
-		07D8C08A21DDEC54006F5A1B /* CTCarouselImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTCarouselImageView.h; sourceTree = "<group>"; };
 		07FD65A1223BC26300A845B7 /* CTCoverViewController~iphoneland.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = "CTCoverViewController~iphoneland.xib"; sourceTree = "<group>"; };
 		07FD65A3223BCB8200A845B7 /* CTCoverViewController~ipadland.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = "CTCoverViewController~ipadland.xib"; sourceTree = "<group>"; };
 		203C2B553FF6FBADEE051C68 /* Pods-shared-CleverTapSDKTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-shared-CleverTapSDKTests.release.xcconfig"; path = "Target Support Files/Pods-shared-CleverTapSDKTests/Pods-shared-CleverTapSDKTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -624,14 +510,8 @@
 		D032F3A72093EC9700F98D74 /* CTValidationResult.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CTValidationResult.m; sourceTree = "<group>"; };
 		D033FB81208FE51200B4390F /* CTUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CTUtils.h; sourceTree = "<group>"; };
 		D033FB82208FE51200B4390F /* CTUtils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CTUtils.m; sourceTree = "<group>"; };
-		D0405B4422050C5200D64EC3 /* CTInboxUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CTInboxUtils.h; sourceTree = "<group>"; };
-		D0405B4522050C5200D64EC3 /* CTInboxUtils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CTInboxUtils.m; sourceTree = "<group>"; };
 		D0596EF8208A6A9000A80753 /* CTSwizzle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CTSwizzle.h; sourceTree = "<group>"; };
 		D0596EF9208A6A9000A80753 /* CTSwizzle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CTSwizzle.m; sourceTree = "<group>"; };
-		D06F052621E802D400D1B6BD /* CTInboxBaseMessageCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CTInboxBaseMessageCell.h; sourceTree = "<group>"; };
-		D06F052721E802D400D1B6BD /* CTInboxBaseMessageCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CTInboxBaseMessageCell.m; sourceTree = "<group>"; };
-		D079742721FE2F2300773602 /* CTVideoThumbnailGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTVideoThumbnailGenerator.h; sourceTree = "<group>"; };
-		D079742821FE2F2300773602 /* CTVideoThumbnailGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTVideoThumbnailGenerator.m; sourceTree = "<group>"; };
 		D09A5E0221EA33C50032DDDF /* SDWebImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDWebImage.framework; path = Vendors/SDWebImage.framework; sourceTree = "<group>"; };
 		D0A6626B20801E7F00B403F3 /* CTDeviceInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CTDeviceInfo.h; sourceTree = "<group>"; };
 		D0A6626C20801E7F00B403F3 /* CTDeviceInfo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CTDeviceInfo.m; sourceTree = "<group>"; };
@@ -791,91 +671,6 @@
 			path = InApps;
 			sourceTree = "<group>";
 		};
-		0797134121A338B40011C9A3 /* views */ = {
-			isa = PBXGroup;
-			children = (
-				D079742721FE2F2300773602 /* CTVideoThumbnailGenerator.h */,
-				D079742821FE2F2300773602 /* CTVideoThumbnailGenerator.m */,
-				0797132D21A2F09A0011C9A3 /* CTSwipeView.h */,
-				0797132E21A2F09A0011C9A3 /* CTSwipeView.m */,
-				07D8C08A21DDEC54006F5A1B /* CTCarouselImageView.h */,
-				0797133821A309720011C9A3 /* CTCarouselImageView.m */,
-				072F9E4021B14ECC00BC6313 /* CTInboxMessageActionView.h */,
-				072F9E4121B14ECC00BC6313 /* CTInboxMessageActionView.m */,
-				07053B7021E653E70085B44A /* UIView+CTToast.h */,
-				07053B7121E653E70085B44A /* UIView+CTToast.m */,
-			);
-			path = views;
-			sourceTree = "<group>";
-		};
-		07B94520219EA33800D4C542 /* Inbox */ = {
-			isa = PBXGroup;
-			children = (
-				495EA4BE25554718006CADFF /* resources */,
-				0797134121A338B40011C9A3 /* views */,
-				07B94521219EA34300D4C542 /* cells */,
-				07B94527219EA34300D4C542 /* config */,
-				07B94529219EA34300D4C542 /* controllers */,
-				07B9452F219EA34300D4C542 /* models */,
-			);
-			path = Inbox;
-			sourceTree = "<group>";
-		};
-		07B94521219EA34300D4C542 /* cells */ = {
-			isa = PBXGroup;
-			children = (
-				D06F052621E802D400D1B6BD /* CTInboxBaseMessageCell.h */,
-				D06F052721E802D400D1B6BD /* CTInboxBaseMessageCell.m */,
-				07B94522219EA34300D4C542 /* CTInboxSimpleMessageCell.h */,
-				07B94523219EA34300D4C542 /* CTInboxSimpleMessageCell.m */,
-				0796FB6021AE5B2900FC380D /* CTCarouselMessageCell.h */,
-				0796FB6121AE5B2900FC380D /* CTCarouselMessageCell.m */,
-				0796FB6621AE5B6300FC380D /* CTCarouselImageMessageCell.h */,
-				0796FB6721AE5B6300FC380D /* CTCarouselImageMessageCell.m */,
-				072F9E3A21B1368000BC6313 /* CTInboxIconMessageCell.h */,
-				072F9E3B21B1368000BC6313 /* CTInboxIconMessageCell.m */,
-			);
-			path = cells;
-			sourceTree = "<group>";
-		};
-		07B94527219EA34300D4C542 /* config */ = {
-			isa = PBXGroup;
-			children = (
-				07B94528219EA34300D4C542 /* CleverTapInboxStyleConfig.m */,
-			);
-			path = config;
-			sourceTree = "<group>";
-		};
-		07B94529219EA34300D4C542 /* controllers */ = {
-			isa = PBXGroup;
-			children = (
-				07B9452E219EA34300D4C542 /* CTInboxController.h */,
-				07B9452A219EA34300D4C542 /* CTInboxController.m */,
-				07B9452B219EA34300D4C542 /* CleverTapInboxViewControllerPrivate.h */,
-				07B9452C219EA34300D4C542 /* CleverTapInboxViewController.m */,
-			);
-			path = controllers;
-			sourceTree = "<group>";
-		};
-		07B9452F219EA34300D4C542 /* models */ = {
-			isa = PBXGroup;
-			children = (
-				07B94533219EA34300D4C542 /* CTUserMO.h */,
-				07B9453A219EA34300D4C542 /* CTUserMO.m */,
-				07B94535219EA34300D4C542 /* CTUserMO+CoreDataProperties.h */,
-				07B94530219EA34300D4C542 /* CTUserMO+CoreDataProperties.m */,
-				07B94532219EA34300D4C542 /* CTMessageMO.h */,
-				07B94537219EA34300D4C542 /* CTMessageMO.m */,
-				07B94531219EA34300D4C542 /* CTMessageMO+CoreDataProperties.h */,
-				07B94534219EA34300D4C542 /* CTMessageMO+CoreDataProperties.m */,
-				07B94536219EA34300D4C542 /* CleverTapInboxMessage.m */,
-				07961B7421B50A4C0081953E /* CleverTapInboxMessageContent.m */,
-				D0405B4422050C5200D64EC3 /* CTInboxUtils.h */,
-				D0405B4522050C5200D64EC3 /* CTInboxUtils.m */,
-			);
-			path = models;
-			sourceTree = "<group>";
-		};
 		07B94551219EA44100D4C542 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -888,36 +683,6 @@
 				2108AFE9090417CC69A0E3EB /* libPods-shared-CleverTapSDKTestsApp.a */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		495EA4BE25554718006CADFF /* resources */ = {
-			isa = PBXGroup;
-			children = (
-				07B94524219EA34300D4C542 /* CTInboxSimpleMessageCell~port.xib */,
-				07238E3C221E79F80012DFAE /* CTInboxSimpleMessageCell~land.xib */,
-				0796FB6221AE5B2900FC380D /* CTCarouselMessageCell~port.xib */,
-				07238E3E221E7A100012DFAE /* CTCarouselMessageCell~land.xib */,
-				0796FB6821AE5B6300FC380D /* CTCarouselImageMessageCell~port.xib */,
-				07238E40221E7A270012DFAE /* CTCarouselImageMessageCell~land.xib */,
-				072F9E3C21B1368000BC6313 /* CTInboxIconMessageCell~port.xib */,
-				07238E42221E7A3E0012DFAE /* CTInboxIconMessageCell~land.xib */,
-				07B9452D219EA34300D4C542 /* CleverTapInboxViewController.xib */,
-				07D86D3822255087009EE610 /* CTCarouselImageView.xib */,
-				07B94538219EA34300D4C542 /* Inbox.xcdatamodeld */,
-				071EB48C217F6427008F0FAB /* ic_play@1x.png */,
-				071EB497217F6427008F0FAB /* ic_play@2x.png */,
-				071EB496217F6427008F0FAB /* ic_play@3x.png */,
-				071EB492217F6427008F0FAB /* ic_pause@1x.png */,
-				071EB493217F6427008F0FAB /* ic_pause@2x.png */,
-				071EB495217F6427008F0FAB /* ic_pause@3x.png */,
-				070229AC22084B0B0093CA41 /* ct_default_portrait_image.png */,
-				070229A6220831CB0093CA41 /* ct_default_landscape_image.png */,
-				070229A7220831CB0093CA41 /* ct_default_video.png */,
-				079701E42180A055008BF668 /* ct_default_audio.png */,
-				070BB5CB21E70BC000428DEE /* ct_volume_off.png */,
-				070BB5CA21E70BBF00428DEE /* ct_volume_on.png */,
-			);
-			path = resources;
 			sourceTree = "<group>";
 		};
 		49F9E6BA2552E97000EF2E5C /* resources */ = {
@@ -1080,7 +845,6 @@
 				D0BD7598241760A30006EE55 /* ProductConfig */,
 				D0D4C9E62414CBA30029477E /* FeatureFlags */,
 				0701E9572372AD550034AAC2 /* DisplayUnit */,
-				07B94520219EA33800D4C542 /* Inbox */,
 				071EB476217F6427008F0FAB /* InApps */,
 				D0C7BBC8207D8837001345EF /* CleverTap.h */,
 				D0C7BBC9207D8837001345EF /* CleverTap.m */,
@@ -1272,29 +1036,22 @@
 				4E25E3C1278887A70008C888 /* CTIdentityRepo.h in Headers */,
 				071EB4F3217F6427008F0FAB /* CTInAppNotification.h in Headers */,
 				F9356ED42487FE4600B4F507 /* CleverTapPushNotificationDelegate.h in Headers */,
-				07B9453B219EA34300D4C542 /* CTInboxSimpleMessageCell.h in Headers */,
-				07053B7221E653E70085B44A /* UIView+CTToast.h in Headers */,
 				4987C665251B5E79003E6BE8 /* CTImageInAppViewController.h in Headers */,
 				D014B8E220E2F9F9001E0780 /* CleverTapInstanceConfigPrivate.h in Headers */,
 				071EB4CF217F6427008F0FAB /* CTBaseHeaderFooterViewControllerPrivate.h in Headers */,
 				D0BD759D241760C60006EE55 /* CTProductConfigController.h in Headers */,
 				4E49AE53275D24570074A774 /* CTValidationResultStack.h in Headers */,
-				07B94544219EA34300D4C542 /* CTInboxController.h in Headers */,
 				5709005327FD8E1F0011B89F /* CleverTap+DCDomain.h in Headers */,
 				D0213D4F207D905800FE5740 /* CleverTapUTMDetail.h in Headers */,
 				071EB4D3217F6427008F0FAB /* CTAVPlayerViewController.h in Headers */,
-				07B9454A219EA34300D4C542 /* CTUserMO+CoreDataProperties.h in Headers */,
 				D0213D4C207D905800FE5740 /* CleverTapSyncDelegate.h in Headers */,
-				07B94546219EA34300D4C542 /* CTMessageMO+CoreDataProperties.h in Headers */,
 				D01651B22097B42C00660178 /* CTValidator.h in Headers */,
 				D0A84ADC209136D500191B1F /* CTLogger.h in Headers */,
-				07B94541219EA34300D4C542 /* CleverTapInboxViewControllerPrivate.h in Headers */,
 				071EB4EE217F6427008F0FAB /* CTAlertViewController.h in Headers */,
 				D0CACF9620B8A4F800A02327 /* CTPinnedNSURLSessionDelegate.h in Headers */,
 				071EB4FE217F6427008F0FAB /* CTDismissButton.h in Headers */,
 				071EB511217F6427008F0FAB /* CTUIUtils.h in Headers */,
 				D01651AE2097B38400660178 /* CTEventBuilder.h in Headers */,
-				072F9E3D21B1368000BC6313 /* CTInboxIconMessageCell.h in Headers */,
 				D01651B62097B81400660178 /* CTKnownProfileFields.h in Headers */,
 				071EB4D7217F6427008F0FAB /* CTCoverViewController.h in Headers */,
 				D0047B0E2098E2F00019C6FD /* CTProfileBuilder.h in Headers */,
@@ -1303,16 +1060,13 @@
 				57EDC7A12683845B001DD157 /* CleverTap+InAppNotifications.h in Headers */,
 				D0CACF9020B8A44C00A02327 /* CTCertificatePinning.h in Headers */,
 				071EB503217F6427008F0FAB /* CTHalfInterstitialImageViewController.h in Headers */,
-				07D8C08B21DDEC54006F5A1B /* CTCarouselImageView.h in Headers */,
 				071EB515217F6427008F0FAB /* CTInterstitialViewController.h in Headers */,
 				0701E9622372C1950034AAC2 /* CTDisplayUnitController.h in Headers */,
-				0797132F21A2F09A0011C9A3 /* CTSwipeView.h in Headers */,
 				D0BD75A02417690E0006EE55 /* CleverTapProductConfigPrivate.h in Headers */,
 				D0D4C9EB2414D1C50029477E /* CTFeatureFlagsController.h in Headers */,
 				071EB4F8217F6427008F0FAB /* CTInterstitialImageViewController.h in Headers */,
 				D0047B122098EDA90019C6FD /* CTLocationManager.h in Headers */,
 				4E25E3D02788889E0008C888 /* CTLoginInfoProvider.h in Headers */,
-				D079742921FE2F2300773602 /* CTVideoThumbnailGenerator.h in Headers */,
 				071EB4FC217F6427008F0FAB /* CTHalfInterstitialViewController.h in Headers */,
 				071EB4C7217F6427008F0FAB /* CTFooterViewController.h in Headers */,
 				071EB4FD217F6427008F0FAB /* CTInAppUtils.h in Headers */,
@@ -1322,7 +1076,6 @@
 				4987C668251B5F9E003E6BE8 /* CTImageInAppViewControllerPrivate.h in Headers */,
 				D01A0899207ED98300423D6F /* CTPlistInfo.h in Headers */,
 				D032F3A82093EC9700F98D74 /* CTValidationResult.h in Headers */,
-				0796FB6921AE5B6300FC380D /* CTCarouselImageMessageCell.h in Headers */,
 				D020C928209006AD0073F61E /* CTUriHelper.h in Headers */,
 				D0596EFA208A6A9000A80753 /* CTSwizzle.h in Headers */,
 				071EB508217F6427008F0FAB /* CTBaseHeaderFooterViewController.h in Headers */,
@@ -1342,17 +1095,11 @@
 				D01A0894207EC2D400423D6F /* CleverTapInstanceConfig.h in Headers */,
 				071EB50C217F6427008F0FAB /* CTCoverImageViewController.h in Headers */,
 				D0213D4B207D905800FE5740 /* CleverTapInAppNotificationDelegate.h in Headers */,
-				072F9E4221B14ECC00BC6313 /* CTInboxMessageActionView.h in Headers */,
 				D0BD75AE241769E40006EE55 /* CleverTap+ProductConfig.h in Headers */,
-				D06F052821E802D400D1B6BD /* CTInboxBaseMessageCell.h in Headers */,
-				07B94548219EA34300D4C542 /* CTUserMO.h in Headers */,
-				D0405B4622050C5200D64EC3 /* CTInboxUtils.h in Headers */,
 				4E25E3C6278887A70008C888 /* CTLegacyIdentityRepo.h in Headers */,
-				07B94547219EA34300D4C542 /* CTMessageMO.h in Headers */,
 				4E25E3C2278887A70008C888 /* CTIdentityRepoFactory.h in Headers */,
 				071EB4FF217F6427008F0FAB /* CTHeaderViewController.h in Headers */,
 				071EB4D6217F6427008F0FAB /* CTInAppFCManager.h in Headers */,
-				0796FB6321AE5B2900FC380D /* CTCarouselMessageCell.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1553,28 +1300,18 @@
 			files = (
 				071EB4CA217F6427008F0FAB /* CTHalfInterstitialViewController~ipad.xib in Resources */,
 				07D86D3B22268C1F009EE610 /* CTInterstitialViewController~ipadland.xib in Resources */,
-				07D86D3922255087009EE610 /* CTCarouselImageView.xib in Resources */,
-				072F9E3F21B1368000BC6313 /* CTInboxIconMessageCell~port.xib in Resources */,
 				071EB4D5217F6427008F0FAB /* CTCoverImageViewController~iphoneport.xib in Resources */,
 				07D86D4722269638009EE610 /* CTHeaderViewController~ipadland.xib in Resources */,
 				071EB4ED217F6427008F0FAB /* CTInterstitialImageViewController~iphoneport.xib in Resources */,
-				071EB4DB217F6427008F0FAB /* ic_play@1x.png in Resources */,
 				071EB507217F6427008F0FAB /* CTFooterViewController~iphoneport.xib in Resources */,
-				071EB4E5217F6427008F0FAB /* ic_play@3x.png in Resources */,
 				07D86D45222695F1009EE610 /* CTInterstitialImageViewController~ipadland.xib in Resources */,
-				0796FB6521AE5B2900FC380D /* CTCarouselMessageCell~port.xib in Resources */,
-				070229A8220831CB0093CA41 /* ct_default_landscape_image.png in Resources */,
 				070CDC0B2223C02F00CA787D /* CTInterstitialImageViewController~iphoneland.xib in Resources */,
 				070CDC0D2223C1C800CA787D /* CTHalfInterstitialImageViewController~iphoneland.xib in Resources */,
 				07D86D43222695B7009EE610 /* CTCoverImageViewController~ipadland.xib in Resources */,
 				07FD65A4223BCB8200A845B7 /* CTCoverViewController~ipadland.xib in Resources */,
 				071EB4F2217F6427008F0FAB /* CTCoverViewController~iphoneport.xib in Resources */,
-				070229AD22084B0B0093CA41 /* ct_default_portrait_image.png in Resources */,
-				0796FB6B21AE5B6300FC380D /* CTCarouselImageMessageCell~port.xib in Resources */,
-				070BB5CC21E70BC000428DEE /* ct_volume_on.png in Resources */,
 				071EB500217F6427008F0FAB /* CTHeaderViewController~ipad.xib in Resources */,
 				071EB4F7217F6427008F0FAB /* CTHeaderViewController~iphoneport.xib in Resources */,
-				071EB4E6217F6427008F0FAB /* ic_play@2x.png in Resources */,
 				07D86D3F22269496009EE610 /* CTHalfInterstitialViewController~ipadland.xib in Resources */,
 				071EB4F4217F6427008F0FAB /* CTCoverViewController~ipad.xib in Resources */,
 				071EB50E217F6427008F0FAB /* CTInterstitialImageViewController~ipad.xib in Resources */,
@@ -1582,30 +1319,18 @@
 				07238E3B221D638D0012DFAE /* CTInterstitialViewController~iphoneland.xib in Resources */,
 				071EB504217F6427008F0FAB /* CTInterstitialViewController~iphoneport.xib in Resources */,
 				07D0D0912223F44E000D5686 /* CTHeaderViewController~iphoneland.xib in Resources */,
-				071EB4E2217F6427008F0FAB /* ic_pause@2x.png in Resources */,
 				071EB4E8217F6427008F0FAB /* CTFooterViewController~ipad.xib in Resources */,
-				079701E52180A055008BF668 /* ct_default_audio.png in Resources */,
-				071EB4E4217F6427008F0FAB /* ic_pause@3x.png in Resources */,
 				07D0D08F2223F24E000D5686 /* CTFooterViewController~iphoneland.xib in Resources */,
 				07FD65A2223BC26300A845B7 /* CTCoverViewController~iphoneland.xib in Resources */,
-				070BB5CD21E70BC000428DEE /* ct_volume_off.png in Resources */,
 				4E64855B287440BA00C2F409 /* AmazonRootCA1.cer in Resources */,
 				07D0D09322240329000D5686 /* CTCoverImageViewController~iphoneland.xib in Resources */,
-				07238E43221E7A3E0012DFAE /* CTInboxIconMessageCell~land.xib in Resources */,
-				07B94543219EA34300D4C542 /* CleverTapInboxViewController.xib in Resources */,
-				07238E3F221E7A100012DFAE /* CTCarouselMessageCell~land.xib in Resources */,
-				07B9453D219EA34300D4C542 /* CTInboxSimpleMessageCell~port.xib in Resources */,
-				070229A9220831CB0093CA41 /* ct_default_video.png in Resources */,
-				071EB4E1217F6427008F0FAB /* ic_pause@1x.png in Resources */,
 				071EB50F217F6427008F0FAB /* CTHalfInterstitialImageViewController~iphoneport.xib in Resources */,
 				07D86D3D22269462009EE610 /* CTFooterViewController~ipadland.xib in Resources */,
 				071EB4D0217F6427008F0FAB /* CTInterstitialViewController~ipad.xib in Resources */,
 				071EB4CB217F6427008F0FAB /* CTHalfInterstitialViewController~iphoneport.xib in Resources */,
 				071EB50A217F6427008F0FAB /* CTHalfInterstitialImageViewController~ipad.xib in Resources */,
 				071EB514217F6427008F0FAB /* CTCoverImageViewController~ipad.xib in Resources */,
-				07238E41221E7A270012DFAE /* CTCarouselImageMessageCell~land.xib in Resources */,
 				07D86D41222694ED009EE610 /* CTHalfInterstitialImageViewController~ipadland.xib in Resources */,
-				07238E3D221E79F80012DFAE /* CTInboxSimpleMessageCell~land.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1762,18 +1487,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				071EB509217F6427008F0FAB /* CTAlertViewController.m in Sources */,
-				07B9454B219EA34300D4C542 /* CleverTapInboxMessage.m in Sources */,
-				07053B7321E653E70085B44A /* UIView+CTToast.m in Sources */,
 				D0BD75A6241769440006EE55 /* CleverTapProductConfig.m in Sources */,
 				D0213D52207D905800FE5740 /* CleverTapEventDetail.m in Sources */,
 				071EB4F5217F6427008F0FAB /* CTInAppHTMLViewController.m in Sources */,
 				D01651AF2097B38400660178 /* CTEventBuilder.m in Sources */,
 				D020C929209006AD0073F61E /* CTUriHelper.m in Sources */,
-				07B9454C219EA34300D4C542 /* CTMessageMO.m in Sources */,
 				D0D4C9F32414EE6C0029477E /* CleverTapFeatureFlags.m in Sources */,
 				D01A0898207ED98300423D6F /* CTPlistInfo.m in Sources */,
 				071EB4D2217F6427008F0FAB /* CTInterstitialImageViewController.m in Sources */,
-				D079742A21FE2F2300773602 /* CTVideoThumbnailGenerator.m in Sources */,
 				071EB4C9217F6427008F0FAB /* CTHeaderViewController.m in Sources */,
 				4E25E3C7278887A70008C888 /* CTIdentityRepoFactory.m in Sources */,
 				071EB505217F6427008F0FAB /* CTCoverViewController.m in Sources */,
@@ -1782,25 +1503,18 @@
 				D033FB84208FE51200B4390F /* CTUtils.m in Sources */,
 				0701E975237A9A760034AAC2 /* CleverTapDisplayUnitContent.m in Sources */,
 				4987C666251B5E79003E6BE8 /* CTImageInAppViewController.m in Sources */,
-				D0405B4722050C5200D64EC3 /* CTInboxUtils.m in Sources */,
 				D01651B32097B42C00660178 /* CTValidator.m in Sources */,
 				49C189A2243B08A40003E4D4 /* CTFeatureFlagsController.m in Sources */,
 				071EB513217F6427008F0FAB /* CTInAppNotification.m in Sources */,
 				D0CACF9720B8A4F800A02327 /* CTPinnedNSURLSessionDelegate.m in Sources */,
 				D0047B0F2098E2F00019C6FD /* CTProfileBuilder.m in Sources */,
 				D0A6626E20801E7F00B403F3 /* CTDeviceInfo.m in Sources */,
-				0797133A21A309720011C9A3 /* CTCarouselImageView.m in Sources */,
-				072F9E4321B14ECC00BC6313 /* CTInboxMessageActionView.m in Sources */,
-				0796FB6A21AE5B6300FC380D /* CTCarouselImageMessageCell.m in Sources */,
 				071EB4D1217F6427008F0FAB /* CTNotificationButton.m in Sources */,
 				0701E9632372C1950034AAC2 /* CTDisplayUnitController.m in Sources */,
 				D0213D4E207D905800FE5740 /* CleverTapTrackedViewController.m in Sources */,
-				07961B7621B50A4C0081953E /* CleverTapInboxMessageContent.m in Sources */,
 				D0047B0B2098D45B0019C6FD /* CTLocalDataStore.m in Sources */,
 				071EB4CC217F6427008F0FAB /* CTHalfInterstitialViewController.m in Sources */,
-				07B94549219EA34300D4C542 /* CTMessageMO+CoreDataProperties.m in Sources */,
 				071EB4CE217F6427008F0FAB /* CTInAppDisplayViewController.m in Sources */,
-				07B9454D219EA34300D4C542 /* Inbox.xcdatamodeld in Sources */,
 				D0213D51207D905800FE5740 /* CleverTapUTMDetail.m in Sources */,
 				D0596EFB208A6A9000A80753 /* CTSwizzle.m in Sources */,
 				D032F3A92093EC9700F98D74 /* CTValidationResult.m in Sources */,
@@ -1811,31 +1525,21 @@
 				4E25E3CF2788889E0008C888 /* CTLoginInfoProvider.m in Sources */,
 				071EB4EB217F6427008F0FAB /* CTCoverImageViewController.m in Sources */,
 				071EB4D4217F6427008F0FAB /* CTBaseHeaderFooterViewController.m in Sources */,
-				D06F052921E802D400D1B6BD /* CTInboxBaseMessageCell.m in Sources */,
-				07B9453F219EA34300D4C542 /* CleverTapInboxStyleConfig.m in Sources */,
-				0796FB6421AE5B2900FC380D /* CTCarouselMessageCell.m in Sources */,
 				071EB4F6217F6427008F0FAB /* CTUIUtils.m in Sources */,
 				071EB4FA217F6427008F0FAB /* CTAVPlayerViewController.m in Sources */,
 				071EB506217F6427008F0FAB /* CTInAppFCManager.m in Sources */,
 				4E25E3C3278887A70008C888 /* CTFlexibleIdentityRepo.m in Sources */,
 				D01651B72097B81400660178 /* CTKnownProfileFields.m in Sources */,
-				07B94545219EA34300D4C542 /* CTUserMO+CoreDataProperties.m in Sources */,
-				07B94542219EA34300D4C542 /* CleverTapInboxViewController.m in Sources */,
 				D0C7BBCB207D8837001345EF /* CleverTap.m in Sources */,
-				07B9454E219EA34300D4C542 /* CTUserMO.m in Sources */,
-				07B9453C219EA34300D4C542 /* CTInboxSimpleMessageCell.m in Sources */,
 				D0BD759E241760C60006EE55 /* CTProductConfigController.m in Sources */,
 				49E2B18324178E7400AD704B /* CleverTapConfigValue.m in Sources */,
-				07B94540219EA34300D4C542 /* CTInboxController.m in Sources */,
 				4E25E3C4278887A70008C888 /* CTLegacyIdentityRepo.m in Sources */,
 				078C63AA22420321001FDDB8 /* CleverTapJSInterface.m in Sources */,
 				4E49AE55275D24570074A774 /* CTValidationResultStack.m in Sources */,
 				D01A0895207EC2D400423D6F /* CleverTapInstanceConfig.m in Sources */,
 				071EB4C8217F6427008F0FAB /* CTDismissButton.m in Sources */,
 				0701E9652372DE9C0034AAC2 /* CleverTapDisplayUnit.m in Sources */,
-				072F9E3E21B1368000BC6313 /* CTInboxIconMessageCell.m in Sources */,
 				071EB4D8217F6427008F0FAB /* CTHalfInterstitialImageViewController.m in Sources */,
-				0797133021A2F09A0011C9A3 /* CTSwipeView.m in Sources */,
 				071EB4EF217F6427008F0FAB /* CTInterstitialViewController.m in Sources */,
 				D0CACF9920B8A78600A02327 /* CTConstants.m in Sources */,
 			);
@@ -2286,6 +1990,7 @@
 				"GCC_PREPROCESSOR_DEFINITIONS[arch=*]" = (
 					"DEBUG=1",
 					"$(inherited)",
+					"CLEVERTAP_NO_INBOX_SUPPORT=1",
 				);
 				INFOPLIST_FILE = CleverTapSDK/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -2401,19 +2106,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		07B94538219EA34300D4C542 /* Inbox.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				07B94539219EA34300D4C542 /* Inbox.xcdatamodel */,
-			);
-			currentVersion = 07B94539219EA34300D4C542 /* Inbox.xcdatamodel */;
-			path = Inbox.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = D0C7BBB4207D82C0001345EF /* Project object */;
 }
